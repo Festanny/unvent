@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, in
+	itial-scale=1.0">
+	<link rel="icon" href="image/favicon.png" type="image/png" />
+	<title>Home</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/mobile.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" href="style/bootstrap.css">
+</head>
+<body>
+	<header>
+		<div class="container-x">
+			<div class="header">
+				<div class="logo">
+					<img src="image/logo.png" alt="">
+					<div><b>Профессиональный монтаж дымоходов </b>любой сложности на территории Киева и Киевской обл.</div>
+				</div>
+				<div class="map" data-bs-toggle="modal" data-bs-target="#map">
+					<img src="image/map.png" alt="">
+					<div><b>Украина, Киев, </b>Васильковская 30</div>
+				</div>
+				<a href="#" class="btn-header">Консультация инженера</a>
+				<div class="phone">
+					<a href="tel:+380672425878" class="tel">+38 067 242-58-78</a>
+					<div class="social">
+						<a href="#"><img src="image/viber.png" alt=""></a>
+						<a href="#"><img src="image/tg.png" alt=""></a>
+						<a href="#"><img src="image/wa.png" alt=""></a>
+					</div>
+				</div>
+				<div class="btn-menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Меню</div>
+			</div>
+			<div class="menu">
+				<ul>
+					<a href="#"><li>Калькулятор</li></a>
+					<a href="#"><li>Услуги</li></a>
+					<a href="#"><li>Наши новости</li></a>
+					<a href="#"><li>Отзывы</li></a>
+					<a href="#"><li>Консультация</li></a>
+					<a href="#"><li>Преимущества</li></a>
+					<a href="#"><li>Производство</li></a>
+					<a href="#"><li>Вопрос-ответ</li></a>
+					<a href="#"><li>Контакты</li></a>
+				</ul>
+			</div>
+			
+			<div class="info">
+				<div class="text"><b>Монтаж дымоходов из нержавеющей стали </b>для частных домов и предприятий</div>
+				<div class="desc">
+					<div class="block">
+						<span class="num">15</span>
+						<span><b>лет устанавливаем дымоходы</b> для частных лиц и организаций</span>
+					</div>
+					<div class="block">
+						<span><b>Бесплатный выезд инженера</b> в пределах 30 км. от Киева</span>
+					</div>
+					<div class="block">
+						<span><b>Монтаж под ключ от 1 дня,</b> в наличии все разрешительные документы</span>
+					</div>
+				</div>
+				<div class="other">
+					<div class="block">
+						<span class="text">Рассчитайте стоимость монтажа вашего дымохода за 1 минуту и <b>получите скидку 15%</b></span>
+						<a href="#" class="link">
+							<img src="image/calc.png" alt="">
+							<span>Расситать стоимость монтажа и получить скидку</span>
+						</a>
+					</div>
+					<div class="block">
+						<span>Лицензия и сертификаты в наличии</span>
+						<div class="multiple-items">
+						  <div data-bs-toggle="modal" data-bs-target="#license"><img src="image/license.png" alt=""></div>
+						  <div data-bs-toggle="modal" data-bs-target="#license"><img src="image/license.png" alt=""></div>
+						  <div data-bs-toggle="modal" data-bs-target="#license"><img src="image/license.png" alt=""></div>
+						  <div data-bs-toggle="modal" data-bs-target="#license"><img src="image/license.png" alt=""></div>
+						  <div data-bs-toggle="modal" data-bs-target="#license"><img src="image/license.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+<!-- Mobile menu -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h2 id="offcanvasRightLabel">Меню</h2>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="menu">
+		<ul>
+			<a href="#"><li>Калькулятор</li></a>
+			<a href="#"><li>Услуги</li></a>
+			<a href="#"><li>Наши новости</li></a>
+			<a href="#"><li>Отзывы</li></a>
+			<a href="#"><li>Консультация</li></a>
+			<a href="#"><li>Преимущества</li></a>
+			<a href="#"><li>Производство</li></a>
+			<a href="#"><li>Вопрос-ответ</li></a>
+			<a href="#"><li>Контакты</li></a>
+		</ul>
+	</div>
+  </div>
+</div>
+
+<!-- Map -->
+<div class="modal fade" id="map" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aba916b45db626eeb73bef5c1e6a0d7e7f495f9fba416b7e32abbc05ca0808fa3&amp;width=808&amp;height=623&amp;lang=ru_RU&amp;scroll=true"></script>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- License -->
+<div class="modal fade" id="license" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="image/license.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
